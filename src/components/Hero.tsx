@@ -23,8 +23,9 @@ const Hero: React.FC = () => {
         <div className="relative mb-8 z-10">
           <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-gray-800">
             <img
-              src="/images/profile-image.png"
-              alt="Alex Morgan"
+              src="{`${process.env.PUBLIC_URL}/images/pic.png`}"
+
+              alt="Muhammad Saeed"
               className="w-full h-full object-cover"
             />
           </div>
